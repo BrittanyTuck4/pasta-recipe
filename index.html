@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>How to Make Homemade Pasta</title>
+  <style>
+    body {
+      background-color: #fff8e1;
+      font-family: Georgia, serif;
+      padding: 20px;
+    }
+
+    p.custom-font {
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    a:hover {
+      color: darkred;
+    }
+
+    a:focus {
+      outline: 2px dashed darkorange;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 8px;
+    }
+
+    th {
+      background-color: #f0e68c;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="#maincontent">Skip to Recipe</a>
+
+  <h1>How to Make Homemade Pasta</h1>
+
+  <p class="custom-font">Making pasta from scratch is a <strong>delightful</strong> and <em>rewarding</em> experience. It connects us to tradition and gives us control over ingredients.</p>
+
+  <p>Homemade pasta is rich in nutrients like Vitamin B<sub>12</sub> and Iron. A 100g portion contains about 131 calories<sup>1</sup>.</p>
+
+  <p>Below you'll find all the information you need to make delicious pasta at home — from ingredients to cooking time. Don’t skip the resting step — <strong>it makes the dough easier to roll!</strong></p>
+
+  <h2 id="maincontent">Ingredients</h2>
+  <ul>
+    <li>2 cups all-purpose flour</li>
+    <li>3 large eggs</li>
+    <li>1 tablespoon olive oil</li>
+    <li>Pinch of salt</li>
+  </ul>
+
+  <h2>Instructions</h2>
+  <ol>
+    <li>Make a mound of flour on a clean surface and create a well in the center.</li>
+    <li>Crack the eggs into the well and add the olive oil and salt.</li>
+    <li>Use a fork to beat the eggs and gradually incorporate flour until a dough forms.</li>
+    <li>Knead the dough for 8–10 minutes until smooth and elastic.</li>
+    <li>Wrap in plastic wrap and let rest for 30 minutes.</li>
+    <li>Roll out and cut into desired shape. Cook in boiling salted water for 2–4 minutes.</li>
+  </ol>
+
+  <a href="https://www.seriouseats.com/homemade-pasta-dough-recipe" target="_blank">Watch a pasta dough tutorial</a>
+
+  <h2>Image of Final Dish</h2>
+  <img src="pasta.jpg" alt="A plate of freshly made fettuccine with tomato sauce and basil.">
+
+  <h2>Pasta-Making Process (Complex Image)</h2>
+  <figure role="img" aria-describedby="pasta-process-desc">
+    <img src="pasta_steps.jpg" alt="Steps to roll pasta using a pasta machine.">
+    <figcaption id="pasta-process-desc">
+      This image shows a sequence of steps using a pasta machine: dough preparation, setting adjustment, and final cutting of the pasta.
+    </figcaption>
+  </figure>
+
+  <h2>Pasta Cooking Times</h2>
+  <table>
+    <tr>
+      <th scope="col">Pasta Type</th>
+      <th scope="col">Cook Time (min)</th>
+      <th scope="col">Texture</th>
+    </tr>
+    <tr>
+      <td scope="row">Tagliatelle</td>
+      <td>3</td>
+      <td>Silky</td>
+    </tr>
+    <tr>
+      <td scope="row">Ravioli</td>
+      <td>4</td>
+      <td>Tender</td>
+    </tr>
+    <tr>
+      <td scope="row">Spaghetti</td>
+      <td>2</td>
+      <td>Firm</td>
+    </tr>
+  </table>
+
+  <h2>Share Your Pasta Preferences</h2>
+  <form>
+    <label for="username">Name:</label><br>
+    <input type="text" id="username" name="username"><br><br>
+
+    <label>Preferred Pasta Shape:</label><br>
+    <input type="radio" id="fettuccine" name="shape" value="fettuccine">
+    <label for="fettuccine">Fettuccine</label><br>
+    <input type="radio" id="penne" name="shape" value="penne">
+    <label for="penne">Penne</label><br><br>
+
+    <input type="checkbox" id="glutenfree" name="glutenfree">
+    <label for="glutenfree">I prefer gluten-free pasta</label><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
